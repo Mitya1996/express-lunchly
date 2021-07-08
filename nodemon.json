@@ -1,0 +1,7 @@
+{
+    "events": {
+      "restart": "sudo kill -9 `sudo lsof -t -i:3000`",
+      "crash": "sudo kill -9 `sudo lsof -t -i:3000`"
+    },
+    "delay": "1500"
+  }
